@@ -9,7 +9,7 @@ import './App.css'
 
 function App() {
   return (
-    <>
+    <main>
       <Header />
       <Switch>
         <Route exact path="/" component={HomeView}/>
@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/projects" component={ProjectView}/>
         <Route component={Error}/>
       </Switch>
-    </>
+    </main>
   )
 }
 
