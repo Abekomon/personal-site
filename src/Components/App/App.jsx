@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomeView}/>
-        <Route exact path="/aboutme" component={AboutView}/>
+        <Route exact path="/about-me" component={AboutView}/>
         <Route exact path="/projects" component={ProjectView}/>
         <Route component={Error}/>
       </Switch>
