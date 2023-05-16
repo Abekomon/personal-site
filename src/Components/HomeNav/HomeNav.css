@@ -7,7 +7,12 @@
 
 .home-nav {
   width: 85%;
-  margin: auto;
+  margin: 2% auto 0;
+  padding-bottom: 1%;
+}
+
+.home-nav a {
+  font-size: 20px;
 }
 
 .currently-learning {
