@@ -1,0 +1,15 @@
+.home-info-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.home-img {
+  width: 25%;
+  background-color:darkkhaki;
+}
+
+.home-info {
+  width: 65%;
+  background-color:thistle;
+}
