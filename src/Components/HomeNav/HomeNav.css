@@ -1,0 +1,15 @@
+.home-nav, .currently-learning {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-nav {
+  width: 85%;
+  margin: auto;
+}
+
+.currently-learning {
+  width: 35%;
+}
