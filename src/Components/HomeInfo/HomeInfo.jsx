@@ -8,7 +8,14 @@ export default function HomeInfo() {
         <p>This is the picture</p>
       </aside>
       <article className="home-info">
-        <p>This is the information box</p>
+        <p>
+          A Front End Software Engineer that brings a unique perspective 
+          to the development process by leveraging past experience in 
+          customer service. Skilled in empathizing with users and understanding 
+          their needs, and translating that understanding into building intuitive 
+          and user-friendly interfaces, with a passion for creating visually appealing 
+          and responsive designs that enhance the user's journey.
+        </p>
       </article>
     </div>
   )
