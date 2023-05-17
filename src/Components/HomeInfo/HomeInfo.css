@@ -1,0 +1,18 @@
+.home-info-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.home-img {
+  width: 25%;
+  background-color:darkkhaki;
+}
+
+.home-info {
+  width: 65%;
+  background-color:thistle;
+  padding: 2%;
+  font-size: 25px;
+}

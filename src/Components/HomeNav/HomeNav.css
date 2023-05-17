@@ -1,0 +1,20 @@
+.home-nav, .currently-learning {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-nav {
+  width: 85%;
+  margin: 2% auto 0;
+  padding-bottom: 1%;
+}
+
+.home-nav a {
+  font-size: 20px;
+}
+
+.currently-learning {
+  width: 35%;
+}
