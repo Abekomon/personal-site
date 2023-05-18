@@ -25,6 +25,19 @@ const projects = [
       "Front and back end built entirely solo"
     ]
   },
+  {
+    name: "E-Spotter",
+    date: "March, 2023",
+    repo_link: "https://github.com/Abekomon/E-Spotter",
+    deployed_link: "https://e--spotter.herokuapp.com/",
+    screenshots: [],
+    desc: "App that helps keep up to date with current/upcoming esports events",
+    bullets: [
+      "Self-directed project, built from conception to application over the course of two weeks",
+      "Built in React using Router, and rigorously tested using Cypress, with an Express back end",
+      "Front and back end built entirely solo"
+    ]
+  },
 ]
 
 export { projects }
