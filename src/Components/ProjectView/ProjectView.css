@@ -1,0 +1,17 @@
+.projects-view-container {
+  padding-top: 25px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+  margin: 0 auto;
+}
+
+.back-home-link {
+  padding: 0 25px;
+  margin-top: 15px;
+}

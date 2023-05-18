@@ -1,0 +1,7 @@
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto 0;
+  width: 85%;
+}
