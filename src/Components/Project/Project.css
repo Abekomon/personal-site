@@ -1,5 +1,5 @@
 .project-box {
-  width: 32%;
+  width: 30%;
   border: 1px solid black;
   padding: 10px;
 }
@@ -13,4 +13,8 @@
 
 .info-box h3, .info-box p {
   margin-bottom: 0;
+}
+
+.active-project {
+  background-color: white;
 }
