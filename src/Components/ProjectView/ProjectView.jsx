@@ -1,18 +1,33 @@
-import React from "react"
-import ProjectGrid from "../ProjectGrid/ProjectGrid"
+import React, {useState} from "react"
+import Project from "../Project/Project"
+import { projects } from "../../assets/projectList"
 import "./ProjectView.css"
-import { Link } from "react-router-dom"
 
 export default function ProjectView() {
+  const [currentProject, setCurrentProject] = useState({})
+  const [selected, setSelected] = useState('')
+
+  const updateProject = (info, name) => {
+    setSelected(name)
+    setCurrentProject(info)
+  }
+  
+  const setStyle = (name) => {
+    return name === selected ? 'active-project' : ''
+  }
+
+  const projectList = projects.map((proj, i) => <Project key={i} info={proj} updateProject={updateProject} setStyle={setStyle} />)
+
   return (
-    <div className="projects-view-container">
-      <Link className="back-home-link" to="/">{"< Back to Home"}</Link>
+    <div id="projects" className="projects-view-container">
       <div className="projects-box">
-        <div className="page-header">
-          <h2>Projects</h2>
-          <div>Box for Filtering</div>
+        <h2>Projects</h2>
+        <div className="projects-grid">
+          {projectList}
         </div>
-        <ProjectGrid />
+      </div>
+      <div className="project-display">
+        {currentProject.name ? <div>Project component</div> : <p>Select a project!</p>}
       </div>
     </div>
   )
