@@ -1,8 +1,16 @@
-.home-info-box {
+.home-view {
+  margin: 0 auto;
+  background-color:  #f5f5f5;
+  min-height: 90vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-box {
+  width: 75%;
+  margin-bottom: 10%;
 }
 
 .home-img {
@@ -15,4 +23,32 @@
   background-color:thistle;
   padding: 2%;
   font-size: 25px;
+}
+
+.tech-box {
+  height: 10vh;
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.tech-text {
+  padding-right: 3%;
+  border-right: 2px solid black;
+}
+
+.icon-box {
+  width: 55%;
+  margin-left: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: rgb(0, 0, 0, 0.15) 0 0 10px;
 }
