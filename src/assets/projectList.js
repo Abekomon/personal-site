@@ -1,6 +1,6 @@
-import Out1 from "../assets/Images/Outgrown1.svg"
-import Out2 from "../assets/Images/Outgrown2.svg"
-import Out3 from "../assets/Images/Outgrown3.svg"
+import Out1 from "../assets/Images/Outgrown1.png"
+import Out2 from "../assets/Images/Outgrown2.png"
+import Out3 from "../assets/Images/Outgrown3.png"
 
 const projects = [
   {
