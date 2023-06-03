@@ -1,0 +1,19 @@
+.project-display {
+  min-height: 375px;
+  border-radius: 5px;
+  box-shadow: rgb(0, 0, 0, 0.15) 0 0 10px;
+  background-color: white;
+  padding: 4%;
+}
+
+.project-display h3 {
+  margin: 0;
+}
+
+.spec-list {
+  padding-right: 10px;
+}
+
+.spec-list li {
+  margin-top: 5px;
+}
