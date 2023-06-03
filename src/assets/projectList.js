@@ -1,10 +1,14 @@
+import Out1 from "../assets/Images/Outgrown1.svg"
+import Out2 from "../assets/Images/Outgrown2.svg"
+import Out3 from "../assets/Images/Outgrown3.svg"
+
 const projects = [
   {
     name: "Outgrown",
     date: "May, 2023",
     repo_link: "https://github.com/Abekomon/outgrown_fe",
     deployed_link: "https://outgrown.vercel.app/",
-    screenshots: [],
+    screenshots: [Out1, Out2, Out3],
     desc: "App designed to allow parents of young children to trade/sell old clothes.",
     bullets: [
       "Lead a group of 7 developers, both front-end and back-end from conception to application deployment in two weeks.",
