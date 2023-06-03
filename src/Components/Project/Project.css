@@ -4,12 +4,9 @@
   padding: 15px;
   height: 130px;
   justify-content: center;
-}
-
-.project-box:hover {
-  background-color: black;
-  color: white;
-  cursor: pointer;
+  background-color: white;
+  box-shadow: rgb(0, 0, 0, 0.3) 0 0 10px;
+  border-radius: 5px;
 }
 
 .date-info {
@@ -52,12 +49,15 @@
   background-color: rgb(103, 103, 103);
 }
 
-.active-project {
-  background-color: white;
+.active-project, .active-project:hover, .project-box:hover {
+  background-color: rgb(18, 18, 18);
+  color: white;
+}
+
+.project-box:hover {
+  cursor: pointer;
 }
 
 .active-project:hover {
-  background-color: white;
-  color: black;
   cursor: default;
 }
