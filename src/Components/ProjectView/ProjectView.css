@@ -1,6 +1,6 @@
 .projects-view-container {
   min-height: 85vh;
-  padding: 0 10%;
+  padding: 0 10% 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
