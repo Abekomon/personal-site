@@ -1,5 +1,7 @@
 import React, {useEffect} from "react";
 import "./ProjectDisplay.css"
+import githubIcon from "../../assets/Icons/github.svg"
+import linkIcon from "../../assets/Icons/link.svg"
 import {register} from 'swiper/element/bundle'
 register()
 
@@ -35,7 +37,7 @@ export default function ProjectDisplay({info}) {
 
   return (
     <div className="project-display">
-      {!name ? <p>Select a project!</p> : 
+      {!name ? <p className="proj-placeholder">Select a project!</p> : 
       <>
         <swiper-container
           grab-cursor="true"
@@ -51,8 +53,14 @@ export default function ProjectDisplay({info}) {
           {specList}
         </ul>
         <div className="proj-linkbox">
-          <a about="_blank" href={repo_link}>Github Repo</a>
-          <a about="_blank" href={deployed_link}>Live Demo</a>
+          <a className="proj-link" target="_blank" href={repo_link}>
+            <img className="proj-link-icon" src={githubIcon} />
+            Github Repo
+          </a>
+          <a className="proj-link" target="_blank" href={deployed_link}>
+            <img className="proj-link-icon" src={linkIcon} /> 
+            Live Demo
+          </a>
         </div>
       </>
       }
