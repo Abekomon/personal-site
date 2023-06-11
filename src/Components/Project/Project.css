@@ -1,12 +1,13 @@
 .project-box {
   width: 30%;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0, 0.2);
   padding: 15px;
   height: 130px;
   justify-content: center;
   background-color: white;
   box-shadow: rgb(0, 0, 0, 0.3) 0 0 10px;
   border-radius: 5px;
+  transition: background-color 0.25s ease-out
 }
 
 .date-info {
