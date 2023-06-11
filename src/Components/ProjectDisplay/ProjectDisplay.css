@@ -6,6 +6,11 @@
   padding: 4%;
 }
 
+.proj-placeholder {
+  text-align: center;
+  font-size: 30px;
+}
+
 swiper-container {
   height: 500px;
   width: 95%;
