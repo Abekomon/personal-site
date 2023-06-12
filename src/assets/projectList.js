@@ -1,6 +1,9 @@
 import Out1 from "../assets/Images/Outgrown1.png"
 import Out2 from "../assets/Images/Outgrown2.png"
 import Out3 from "../assets/Images/Outgrown3.png"
+import eSpot1 from "../assets/Images/E-Spotter1.png"
+import eSpot2 from "../assets/Images/E-Spotter2.png"
+import eSpot3 from "../assets/Images/E-Spotter3.png"
 
 const projects = [
   {
@@ -22,12 +25,12 @@ const projects = [
     date: "April, 2023",
     repo_link: "https://github.com/Abekomon/E-Spotter",
     deployed_link: "https://e--spotter.herokuapp.com/",
-    screenshots: [],
+    screenshots: [eSpot1, eSpot2, eSpot3],
     desc: "App that helps keep up to date with current/upcoming esports events",
     bullets: [
       "Self-directed project, built from conception to application over the course of two weeks",
-      "Built in React using Router, and rigorously tested using Cypress, with an Express back end",
-      "Front and back end built entirely solo"
+      "Built in React using Router, leveraging express middleware, and rigorously tested using Cypress",
+      "Front end and middleware built entirely solo"
     ],
     tech: ["React", "Express"]
   },
