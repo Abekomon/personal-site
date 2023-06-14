@@ -3,6 +3,7 @@ import HomeInfo from "../HomeInfo/HomeInfo"
 import Header from "../Header/Header"
 import ProjectView from "../ProjectView/ProjectView"
 import AboutView from "../AboutView/AboutView"
+import ContactView from "../ContactView/ContactView"
 import "./HomeView.css"
 
 export default function HomeView() {
@@ -12,6 +13,7 @@ export default function HomeView() {
       <HomeInfo />
       <AboutView />
       <ProjectView />
+      <ContactView />
     </>
   )
 }

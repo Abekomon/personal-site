@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-image: linear-gradient(#f5f5f5 2%, white 3% 97%, #f5f5f5 98% 100%);
 }
 
 .about-info-section {

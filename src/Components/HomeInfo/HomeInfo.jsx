@@ -20,12 +20,12 @@ export default function HomeInfo() {
       <div className="tech-box">
         <h3 className="tech-text">Tech Stack</h3>
         <div className="icon-box">
-          <img className="icon" title="JavaScript" src={JavascriptIcon}/>
-          <img className="icon" title="HTML 5" src={HtmlIcon}/>
-          <img className="icon" title="CSS 3" src={CssIcon}/>
-          <img className="icon" title="React" src={ReactIcon}/>
-          <img className="icon" title="Apollo GraphQL" src={ApolloIcon}/>
-          <img className="icon" title="Cypress" src={CypressIcon}/>
+          <img className="icon" title="JavaScript" src={JavascriptIcon} alt="Tech Icon" />
+          <img className="icon" title="HTML 5" src={HtmlIcon} alt="Tech Icon" />
+          <img className="icon" title="CSS 3" src={CssIcon} alt="Tech Icon" />
+          <img className="icon" title="React" src={ReactIcon} alt="Tech Icon" />
+          <img className="icon" title="Apollo GraphQL" src={ApolloIcon} alt="Tech Icon" />
+          <img className="icon" title="Cypress" src={CypressIcon} alt="Tech Icon" />
         </div>
       </div>
     </section>

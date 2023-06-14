@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import Project from "../Project/Project"
+import ProjectDisplay from "../ProjectDisplay/ProjectDisplay"
 import { projects } from "../../assets/projectList"
 import "./ProjectView.css"
 
@@ -26,9 +27,7 @@ export default function ProjectView() {
           {projectList}
         </div>
       </div>
-      <div className="project-display">
-        {currentProject.name ? <div>Project component</div> : <p>Select a project!</p>}
-      </div>
+      <ProjectDisplay info={currentProject} />
     </div>
   )
 }

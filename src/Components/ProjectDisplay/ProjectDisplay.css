@@ -1,0 +1,76 @@
+.project-display {
+  min-height: 200px;
+  border-radius: 5px;
+  box-shadow: rgb(0, 0, 0, 0.15) 0 0 10px;
+  background-color: white;
+  padding: 2% 4% 4%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.proj-placeholder {
+  text-align: center;
+  font-size: 30px;
+}
+
+.swiper {
+  height: 500px;
+  width: 95%;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.swiper-slide {
+  padding: 10px;
+}
+
+.swiper-slide, .swiper-image {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.swiper-image {
+  box-shadow: rgb(0, 0, 0, 0.15) 0 0 10px;
+}
+
+.project-display h3 {
+  margin: 0;
+}
+
+.spec-list {
+  padding-right: 10px;
+}
+
+.spec-list li {
+  margin-top: 5px;
+}
+
+.proj-info-box {
+  width: 95%;
+}
+
+.proj-linkbox {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+
+.proj-link {
+  display: flex;
+  align-items: center;
+}
+
+.proj-link:hover {
+  text-decoration: underline;
+}
+
+.proj-link-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}

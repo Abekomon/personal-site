@@ -1,10 +1,10 @@
 .projects-view-container {
   min-height: 85vh;
-  padding: 0 10%;
+  padding: 0 10% 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: lightseagreen;
+  background-color: #f5f5f5;
 }
 
 .projects-grid {
@@ -13,6 +13,7 @@
   overflow: scroll;
   justify-content: space-between;
   margin: 10px auto 0;
+  padding: 10px;
 }
 
 .page-header {
@@ -20,8 +21,4 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.project-display {
-  height: 375px;
 }
