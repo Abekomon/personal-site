@@ -10,19 +10,36 @@
 
 .info-box {
   width: 75%;
-  margin-bottom: 10%;
-}
-
-.home-img {
-  width: 25%;
-  background-color:darkkhaki;
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .home-info {
-  width: 65%;
+  width: 50%;
   background-color:thistle;
   padding: 2%;
-  font-size: 25px;
+}
+
+.home-info h1 {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.home-img {
+  width: 35%;
+}
+
+.home-img img {
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 50%;
+  animation-name: corners;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-duration: alternate;
 }
 
 .tech-box {
@@ -51,4 +68,25 @@
   border-radius: 50%;
   background-color: white;
   box-shadow: rgb(0, 0, 0, 0.15) 0 0 10px;
+}
+
+@keyframes corners {
+  0% {
+    border-top-right-radius: 35%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 30%;
+  }
+  50% {
+    border-top-right-radius: 55%;
+    border-top-left-radius: 60%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 40%;
+  }
+  100% {
+    border-top-right-radius: 35%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 30%;
+  }
 }

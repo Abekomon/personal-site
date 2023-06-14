@@ -1,4 +1,5 @@
 import React from "react"
+import Pfp from "../../assets/Images/pfp.jpg"
 import JavascriptIcon from "../../assets/Icons/javascript.svg"
 import HtmlIcon from "../../assets/Icons/html5.svg"
 import CssIcon from "../../assets/Icons/css3.svg"
@@ -12,9 +13,11 @@ export default function HomeInfo() {
     <section className="home-view">
       <div className="info-box">
         <article className="home-info">
+          <h1>Front End React Developer</h1>
+          <p>Hi! I'm Max. A Front End React Dev based in Ypsilanti, MI.</p>
         </article>
         <aside className="home-img">
-          <p>This is the picture</p>
+          <img src={Pfp} alt="Max Lange's smiling face!" />
         </aside>
       </div>
       <div className="tech-box">
