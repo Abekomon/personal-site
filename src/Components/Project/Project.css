@@ -35,19 +35,19 @@
 }
 
 .light-blue {
-  background-color: rgb(89, 187, 248);
+  background-color: rgb(89, 187, 248, 0.75);
 }
 
 .dark-blue {
-  background-color: darkblue;
+  background-color: rgb(1, 1, 134, 0.8);
 }
 
 .purple {
-  background-color: purple;
+  background-color: rgb(141, 0, 141, 0.75);
 }
 
 .grey {
-  background-color: rgb(103, 103, 103);
+  background-color: rgb(103, 103, 103, 0.8);
 }
 
 .active-project, .active-project:hover, .project-box:hover {
