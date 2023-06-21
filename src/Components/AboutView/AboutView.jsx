@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutView.css";
+import sidImg from "../../assets/Images/sid.jpg"
 
 export default function AboutView() {
   return (
@@ -7,7 +8,7 @@ export default function AboutView() {
       <h2>About Me</h2>
       <div className="about-info-section">
         <div className="about-img">
-          Some random picture
+          <img src={sidImg} />
         </div>
         <div className="about-text">
           <p>
@@ -18,6 +19,7 @@ export default function AboutView() {
             and user-friendly interfaces, with a passion for creating visually appealing, 
             responsive, and pixel-perfect designs that enhance the user's journey.
           </p>
+          <p>(Also check out my cat, Sid!)</p>
         </div>
       </div>
     </section>

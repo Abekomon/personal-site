@@ -1,9 +1,9 @@
-import Out1 from "../assets/Images/Outgrown1.png"
-import Out2 from "../assets/Images/Outgrown2.png"
-import Out3 from "../assets/Images/Outgrown3.png"
-import eSpot1 from "../assets/Images/E-Spotter1.png"
-import eSpot2 from "../assets/Images/E-Spotter2.png"
-import eSpot3 from "../assets/Images/E-Spotter3.png"
+import Out1 from "../assets/Images/Outgrown1.jpg"
+import Out2 from "../assets/Images/Outgrown2.jpg"
+import Out3 from "../assets/Images/Outgrown3.jpg"
+import eSpot1 from "../assets/Images/E-Spotter1.jpg"
+import eSpot2 from "../assets/Images/E-Spotter2.jpg"
+import eSpot3 from "../assets/Images/E-Spotter3.jpg"
 
 const projects = [
   {

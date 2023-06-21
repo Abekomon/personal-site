@@ -10,19 +10,34 @@
 
 .info-box {
   width: 75%;
-  margin-bottom: 10%;
-}
-
-.home-img {
-  width: 25%;
-  background-color:darkkhaki;
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .home-info {
-  width: 65%;
+  width: 50%;
   background-color:thistle;
   padding: 2%;
-  font-size: 25px;
+}
+
+.home-info h1 {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.home-img {
+  max-width: 35%;
+}
+
+.home-img img {
+  max-width: 100%;
+  border: 3px solid black;
+  border-radius: 50%;
+  animation-name: corners;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
 
 .tech-box {
@@ -51,4 +66,25 @@
   border-radius: 50%;
   background-color: white;
   box-shadow: rgb(0, 0, 0, 0.15) 0 0 10px;
+}
+
+@keyframes corners {
+  0% {
+    border-top-left-radius: 40%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 35%;
+    border-bottom-left-radius: 60%;
+  }
+  50% {
+    border-top-left-radius: 60%;
+    border-top-right-radius: 35%;
+    border-bottom-right-radius: 55%;
+    border-bottom-left-radius: 40%;
+  }
+  100% {
+    border-top-left-radius: 40%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 35%;
+    border-bottom-left-radius: 60%;
+  }
 }
