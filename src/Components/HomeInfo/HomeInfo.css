@@ -107,6 +107,7 @@
 
   .tech-box {
     flex-direction: column;
+    margin-bottom: 50px;
   }
 
   .tech-text {
