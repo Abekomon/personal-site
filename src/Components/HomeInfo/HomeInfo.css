@@ -16,7 +16,7 @@
 }
 
 .home-info {
-  width: 50%;
+  width: 60%;
   background-color:thistle;
   padding: 2%;
 }
@@ -86,5 +86,37 @@
     border-top-right-radius: 50%;
     border-bottom-right-radius: 35%;
     border-bottom-left-radius: 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .info-box {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .home-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .home-img {
+    max-width: 55%;
+    margin-bottom: 20px;
+  }
+
+  .tech-box {
+    flex-direction: column;
+  }
+
+  .tech-text {
+    border-right: none;
+    border-bottom: 2px solid black;
+    padding: 0 0 10px 0;
+  }
+
+  .icon-box {
+    width: 90%;
+    margin: 0;
   }
 }
