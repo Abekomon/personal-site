@@ -38,7 +38,7 @@ const projects = [
     name: "Quizard",
     date: "March, 2023",
     repo_link: "https://github.com/Abekomon/Quizard",
-    deployed_link: "https://quizard.herokuapp.com/",
+    deployed_link: "https://quizard-ten.vercel.app/",
     screenshots: [],
     desc: "App that helps users practice their trivia skills",
     bullets: [
