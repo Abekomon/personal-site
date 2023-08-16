@@ -2,3 +2,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
+a:hover {
+  color: rgb(19, 168, 255)
+}
