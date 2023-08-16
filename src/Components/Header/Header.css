@@ -18,3 +18,21 @@
   flex-wrap: wrap;
   width: 50%;
 }
+
+@media screen and (max-width: 900px) {
+  .main-header {
+    padding: 0 15px;
+  }
+  
+  h1 {
+    font-size: 25px;
+  }
+  
+  .socials {
+    width: 60%;
+  }
+
+  .socials a {
+    margin: 0 3px;
+  }
+}
