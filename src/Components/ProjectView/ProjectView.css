@@ -27,5 +27,6 @@
   .projects-grid {
     flex-direction: column;
     min-height: 250px;
+    padding: 5px;
   }
 }

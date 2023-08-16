@@ -17,7 +17,6 @@
 
 .home-info {
   width: 60%;
-  background-color:thistle;
   padding: 2%;
 }
 
@@ -38,6 +37,22 @@
   animation-name: corners;
   animation-duration: 8s;
   animation-iteration-count: infinite;
+}
+
+.info-socials {
+  display: flex;
+  gap: 15px;
+}
+
+.info-socials a {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.soc-icon {
+  height: 20px;
+  width: 20px;
 }
 
 .tech-box {
@@ -105,6 +120,10 @@
     margin-bottom: 20px;
   }
 
+  .info-socials {
+    justify-content: center;
+  }
+
   .tech-box {
     flex-direction: column;
     margin-bottom: 50px;
@@ -117,8 +136,9 @@
   }
 
   .icon-box {
-    width: 90%;
+    width: 100%;
     margin: 0;
+    flex-wrap: wrap;
   }
 }
 
