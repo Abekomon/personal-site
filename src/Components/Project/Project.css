@@ -62,3 +62,28 @@
 .active-project:hover {
   cursor: default;
 }
+
+@media screen and (max-width: 900px) {
+  .project-box {
+    width: 100%;
+    height: 50px;
+    margin: 5px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .date-info {
+    display: block;
+  }
+
+  .tech-list {
+    margin-top: 0;
+    gap: 10px;
+  }
+
+  .small-tech-text {
+    font-size: 14px;
+  }
+}

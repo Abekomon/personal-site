@@ -1,4 +1,6 @@
 import React from "react"
+import gitIcon from "../../assets/Icons/github.svg"
+import linkedIcon from "../../assets/Icons/linkedin.svg"
 import Pfp from "../../assets/Images/pfp.jpg"
 import JavascriptIcon from "../../assets/Icons/javascript.svg"
 import HtmlIcon from "../../assets/Icons/html5.svg"
@@ -14,7 +16,17 @@ export default function HomeInfo() {
       <div className="info-box">
         <article className="home-info">
           <h1>Front End React Developer</h1>
-          <p>Hi! I'm Max. A Front End React Dev based in Ypsilanti, MI.</p>
+          <div>
+            <p>Hi! I'm Max. A Front End React Dev based in Ypsilanti, MI.</p>
+            <div className="info-socials">
+              <a target="_blank" href="https://github.com/Abekomon">
+                <img className="soc-icon" src={gitIcon} /><span>GitHub</span>
+              </a>
+              <a target="_blank"  href="https://www.linkedin.com/in/maxwell-steven-lange/">
+                <img className="soc-icon" src={linkedIcon} /><span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
         </article>
         <aside className="home-img">
           <img src={Pfp} alt="Max Lange's smiling face!" />
